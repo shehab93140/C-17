@@ -6,16 +6,20 @@ using namespace std;
 
 int main(void)
 {
-    int n;
+    int n,i;
+    i=0;
     cin >> n;
     while (n>0){ 
-        int start_count=1;
+        int start_count=n-i;
         while(start_count<=n){
             cout<<"*";
-            start_count++;
+          start_count++;
         }
+       
         cout<<"\n";
-        n--;
+         i++;
+       n--;
+      
     }
     return 0;
 }
