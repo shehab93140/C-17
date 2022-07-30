@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (void)
+{
+int num,reminder ;
+cin >> num ;
+int digits =0;
+while (num>0){
+   digits++;
+   num/=10;
+}
+cout<<digits<<" ";
+return 0;
+}
